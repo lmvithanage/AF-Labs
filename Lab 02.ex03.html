@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type=" text/javascript">
+
+        // function fetchUsers(){
+        //     fetch('https://github.com//users').then(function(response){
+        //     return respomse.json();
+        // }).then(function(json){
+        //         console.log(json);
+        //
+        // });
+        // }
+
+        function fetchUsers() {
+            return fetch('https://github.com//users').then(response => respomse.json());
+        }
+
+
+        fetchUsers().then(function (json) {
+            console.log(json);
+
+        });
+
+
+        fetchUsers();
+
+
+
+
+        </script>
+
+</head>
+<body>
+
+</body>
+</html>
